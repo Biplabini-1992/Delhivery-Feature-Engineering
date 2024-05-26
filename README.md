@@ -6,10 +6,10 @@
 - This initiative seeks to streamline the process of making sense of raw data, empowering the data science team to construct more accurate forecasting models.
 
 ## Dataset Information:
-### Source:
+#### Source:
 Please check the dataset at: "[Dataset Link](https://d2beiqkhq929f0.cloudfront.net/public_assets/assets/000/001/551/original/delhivery_data.csv?1642751181)"
 
-### Feature Information:
+#### Feature Information:
 - **data:** tells whether the data is testing or training data
 - **trip_creation_time:** Timestamp of trip creation
 - **route_schedule_uuid:** Unique Id for a particular route schedule
@@ -38,50 +38,50 @@ Please check the dataset at: "[Dataset Link](https://d2beiqkhq929f0.cloudfront.n
 - **segment_factor:** Unknown field
   
 ## Exploratory Data Analysis(EDA):
-### Shape of Data
+#### Shape of Data
 - Observations on the number of rows and columns.
 - Dimensions of the dataset.
-### Data Types
+#### Data Types
 - Identifying data types of all attributes.
 - Conversion of categorical attributes to 'category' type if required.
 - Categorical Attributes Conversion
-### Missing Value Detection
-Detection and summary of missing values across the dataset.
-### Statistical Summary
+#### Missing Value Detection
+- Detection and summary of missing values across the dataset.
+#### Statistical Summary
 - Descriptive statistics including mean, median, standard deviation, etc., for all attributes.
-### Visual Analysis
+#### Visual Analysis
 - Distribution Plots: Histograms or density plots for all continuous variables.
 - Boxplots: For all categorical variables to understand the spread and detect outliers.
-### Insights from EDA
+#### Insights from EDA
 - Key observations and patterns identified during the exploratory analysis.
-### Comments on Attributes
+#### Comments on Attributes
 - Range and distribution of attributes.
 - Identification and handling of outliers.
-### Univariate and Bivariate Plots
+#### Univariate and Bivariate Plots
 - Detailed comments on each univariate plot (individual variable analysis).
 - Detailed comments on each bivariate plot (analysis of relationships between pairs of variables).
 ## Feature Creation
-### Merging of Rows and Aggregation of Fields
+#### Merging of Rows and Aggregation of Fields
 - Methodology for merging rows and aggregating fields.
 - Justification for the chosen approach.
-### Comparison & Visualization of Time and Distance Fields
+#### Comparison & Visualization of Time and Distance Fields
 - Analysis of time and distance fields.
 - Visual comparisons and insights drawn from these comparisons.
-### Missing Values Treatment & Outlier Treatment
+#### Missing Values Treatment & Outlier Treatment
 - Techniques used for handling missing values.
 - Methods for detecting and treating outliers.
-### Checking Relationship Between Aggregated Fields
+#### Checking Relationship Between Aggregated Fields
 - Analysis of relationships between newly aggregated fields.
 - Statistical and visual methods used to assess these relationships.
-### Handling Categorical Values
+#### Handling Categorical Values
 - Strategies for encoding categorical variables (e.g., one-hot encoding, label encoding).
-### Column Normalization / Standardization
+#### Column Normalization / Standardization
 - Processes for normalizing or standardizing columns.
 - Rationale behind choosing normalization or standardization.
-### Business Insights
+#### Business Insights
 - Patterns observed in the data with potential business implications.
 - For example: Analysis of order origins (state, corridor, etc.).
 - Identification of the busiest corridors, average distances, and time taken.
-### Recommendations:
+#### Recommendations
 - Actionable items for the business based on the analysis.
 
